@@ -28,6 +28,7 @@
     margin: 20px .4%;
 }
 
+/* Product */
 .product {
     position: relative;
 }
@@ -55,4 +56,23 @@
     padding: 2px;
     font-size: 8px;
     color: #fff;
+}
+
+/* Infos */
+.brand {
+    font-size: 8px;
+}
+
+.infos h3 {
+    font-size: 10px;
+}
+
+.real-price {
+    font-size: 8px;
+    color: #E9414E;
+}
+
+.full-price {
+    font-size: 8px;
+    text-decoration: line-through;
 }
