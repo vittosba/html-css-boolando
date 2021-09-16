@@ -6,3 +6,53 @@
     font-family: sans-serif;
 }
 
+.container {
+    width: 50%;
+    margin: 30px auto;
+}
+
+/* UTILITIES */
+.bg-type-1 {
+    background: #e94156;
+}
+
+.bg-type-2 {
+    background: #52A986;
+}
+
+
+/* Product Gallery */
+.col {
+    display: inline-block;
+    width: 32%;
+    margin: 20px .4%;
+}
+
+.product {
+    position: relative;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product .heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px;
+    background: #fff;
+    font-size: 10px;
+}
+
+.product .categories {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.category {
+    padding: 2px;
+    font-size: 8px;
+    color: #fff;
+}
